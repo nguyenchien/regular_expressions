@@ -1,0 +1,11 @@
+.form-control.invalid,
+.form-control.invalid:focus {
+  border-color: #f9abab;
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, .25);
+}
+.form-control.valid + .text-muted {
+  color: green !important;
+}
+.form-control.invalid + .text-muted {
+  color: red !important;
+}
